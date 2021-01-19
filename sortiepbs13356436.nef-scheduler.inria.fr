@@ -1,0 +1,145 @@
+/home/msyska/jdk1.8.0_51
+1048576
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 1048570 100
+
+Calcul parallèle  ( 16) pour    1048570 éléments (répété 100 fois) =>     366 ms ;             10485700 
+Calcul parallèle  ( 32) pour    1048570 éléments (répété 100 fois) =>     364 ms ;             10485700 
+Calcul parallèle  ( 64) pour    1048570 éléments (répété 100 fois) =>     672 ms ;             10485700 
+Calcul parallèle  (128) pour    1048570 éléments (répété 100 fois) =>    1279 ms ;             10485700 
+Calcul parallèle  (256) pour    1048570 éléments (répété 100 fois) =>    2455 ms ;             10485700 
+Calcul parallèle  (512) pour    1048570 éléments (répété 100 fois) =>    4856 ms ;             10485700 
+Calcul séquentiel (  1) pour    1048570 éléments (répété 100 fois) =>     312 ms ;             10485700 
+Calcul streamSeq  (  1) pour    1048570 éléments (répété 100 fois) =>     251 ms ;             10485700 
+Calcul streamPar  (  ?) pour    1048570 éléments (répété 100 fois) =>     369 ms ;             10485700 
+2097152
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 2097146 100
+
+Calcul parallèle  ( 16) pour    2097146 éléments (répété 100 fois) =>     558 ms ;             20971460 
+Calcul parallèle  ( 32) pour    2097146 éléments (répété 100 fois) =>     464 ms ;             20971460 
+Calcul parallèle  ( 64) pour    2097146 éléments (répété 100 fois) =>     734 ms ;             20971460 
+Calcul parallèle  (128) pour    2097146 éléments (répété 100 fois) =>    1330 ms ;             20971460 
+Calcul parallèle  (256) pour    2097146 éléments (répété 100 fois) =>    2518 ms ;             20971460 
+Calcul parallèle  (512) pour    2097146 éléments (répété 100 fois) =>    4950 ms ;             20971460 
+Calcul séquentiel (  1) pour    2097146 éléments (répété 100 fois) =>     790 ms ;             20971460 
+Calcul streamSeq  (  1) pour    2097146 éléments (répété 100 fois) =>     659 ms ;             20971460 
+Calcul streamPar  (  ?) pour    2097146 éléments (répété 100 fois) =>     399 ms ;             20971460 
+4194304
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 4194298 100
+
+Calcul parallèle  ( 16) pour    4194298 éléments (répété 100 fois) =>     796 ms ;             41942980 
+Calcul parallèle  ( 32) pour    4194298 éléments (répété 100 fois) =>     786 ms ;             41942980 
+Calcul parallèle  ( 64) pour    4194298 éléments (répété 100 fois) =>    1077 ms ;             41942980 
+Calcul parallèle  (128) pour    4194298 éléments (répété 100 fois) =>    1530 ms ;             41942980 
+Calcul parallèle  (256) pour    4194298 éléments (répété 100 fois) =>    2649 ms ;             41942980 
+Calcul parallèle  (512) pour    4194298 éléments (répété 100 fois) =>    5043 ms ;             41942980 
+Calcul séquentiel (  1) pour    4194298 éléments (répété 100 fois) =>    1228 ms ;             41942980 
+Calcul streamSeq  (  1) pour    4194298 éléments (répété 100 fois) =>     792 ms ;             41942980 
+Calcul streamPar  (  ?) pour    4194298 éléments (répété 100 fois) =>     604 ms ;             41942980 
+8388608
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 8388602 100
+
+Calcul parallèle  ( 16) pour    8388602 éléments (répété 100 fois) =>    1456 ms ;             83886020 
+Calcul parallèle  ( 32) pour    8388602 éléments (répété 100 fois) =>    1408 ms ;             83886020 
+Calcul parallèle  ( 64) pour    8388602 éléments (répété 100 fois) =>    1667 ms ;             83886020 
+Calcul parallèle  (128) pour    8388602 éléments (répété 100 fois) =>    2143 ms ;             83886020 
+Calcul parallèle  (256) pour    8388602 éléments (répété 100 fois) =>    3078 ms ;             83886020 
+Calcul parallèle  (512) pour    8388602 éléments (répété 100 fois) =>    5277 ms ;             83886020 
+Calcul séquentiel (  1) pour    8388602 éléments (répété 100 fois) =>    2907 ms ;             83886020 
+Calcul streamSeq  (  1) pour    8388602 éléments (répété 100 fois) =>    2310 ms ;             83886020 
+Calcul streamPar  (  ?) pour    8388602 éléments (répété 100 fois) =>    1047 ms ;             83886020 
+16777216
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 16777210 100
+
+Calcul parallèle  ( 16) pour   16777210 éléments (répété 100 fois) =>    2587 ms ;            167772100 
+Calcul parallèle  ( 32) pour   16777210 éléments (répété 100 fois) =>    2441 ms ;            167772100 
+Calcul parallèle  ( 64) pour   16777210 éléments (répété 100 fois) =>    2768 ms ;            167772100 
+Calcul parallèle  (128) pour   16777210 éléments (répété 100 fois) =>    3413 ms ;            167772100 
+Calcul parallèle  (256) pour   16777210 éléments (répété 100 fois) =>    4309 ms ;            167772100 
+Calcul parallèle  (512) pour   16777210 éléments (répété 100 fois) =>    6028 ms ;            167772100 
+Calcul séquentiel (  1) pour   16777210 éléments (répété 100 fois) =>    5493 ms ;            167772100 
+Calcul streamSeq  (  1) pour   16777210 éléments (répété 100 fois) =>    4498 ms ;            167772100 
+Calcul streamPar  (  ?) pour   16777210 éléments (répété 100 fois) =>    2038 ms ;            167772100 
+33554432
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 33554426 100
+
+Calcul parallèle  ( 16) pour   33554426 éléments (répété 100 fois) =>    4905 ms ;            335544260 
+Calcul parallèle  ( 32) pour   33554426 éléments (répété 100 fois) =>    4150 ms ;            335544260 
+Calcul parallèle  ( 64) pour   33554426 éléments (répété 100 fois) =>    4584 ms ;            335544260 
+Calcul parallèle  (128) pour   33554426 éléments (répété 100 fois) =>    5687 ms ;            335544260 
+Calcul parallèle  (256) pour   33554426 éléments (répété 100 fois) =>    5559 ms ;            335544260 
+Calcul parallèle  (512) pour   33554426 éléments (répété 100 fois) =>    7144 ms ;            335544260 
+Calcul séquentiel (  1) pour   33554426 éléments (répété 100 fois) =>    5583 ms ;            335544260 
+Calcul streamSeq  (  1) pour   33554426 éléments (répété 100 fois) =>    8031 ms ;            335544260 
+Calcul streamPar  (  ?) pour   33554426 éléments (répété 100 fois) =>    3294 ms ;            335544260 
+67108864
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 67108858 100
+
+Calcul parallèle  ( 16) pour   67108858 éléments (répété 100 fois) =>    8821 ms ;            671088580 
+Calcul parallèle  ( 32) pour   67108858 éléments (répété 100 fois) =>    8135 ms ;            671088580 
+Calcul parallèle  ( 64) pour   67108858 éléments (répété 100 fois) =>    7587 ms ;            671088580 
+Calcul parallèle  (128) pour   67108858 éléments (répété 100 fois) =>    8670 ms ;            671088580 
+Calcul parallèle  (256) pour   67108858 éléments (répété 100 fois) =>   10984 ms ;            671088580 
+Calcul parallèle  (512) pour   67108858 éléments (répété 100 fois) =>   12174 ms ;            671088580 
+Calcul séquentiel (  1) pour   67108858 éléments (répété 100 fois) =>   22508 ms ;            671088580 
+Calcul streamSeq  (  1) pour   67108858 éléments (répété 100 fois) =>    8175 ms ;            671088580 
+Calcul streamPar  (  ?) pour   67108858 éléments (répété 100 fois) =>   10216 ms ;            671088580 
+134217728
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 134217722 100
+
+Calcul parallèle  ( 16) pour  134217722 éléments (répété 100 fois) =>   16369 ms ;           1342177220 
+Calcul parallèle  ( 32) pour  134217722 éléments (répété 100 fois) =>   14999 ms ;           1342177220 
+Calcul parallèle  ( 64) pour  134217722 éléments (répété 100 fois) =>   13753 ms ;           1342177220 
+Calcul parallèle  (128) pour  134217722 éléments (répété 100 fois) =>   14146 ms ;           1342177220 
+Calcul parallèle  (256) pour  134217722 éléments (répété 100 fois) =>   16987 ms ;           1342177220 
+Calcul parallèle  (512) pour  134217722 éléments (répété 100 fois) =>   21998 ms ;           1342177220 
+Calcul séquentiel (  1) pour  134217722 éléments (répété 100 fois) =>   45719 ms ;           1342177220 
+Calcul streamSeq  (  1) pour  134217722 éléments (répété 100 fois) =>   16195 ms ;           1342177220 
+Calcul streamPar  (  ?) pour  134217722 éléments (répété 100 fois) =>   15877 ms ;           1342177220 
+268435456
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 268435450 100
+
+Calcul parallèle  ( 16) pour  268435450 éléments (répété 100 fois) =>   30621 ms ;           2684354500 
+Calcul parallèle  ( 32) pour  268435450 éléments (répété 100 fois) =>   29533 ms ;           2684354500 
+Calcul parallèle  ( 64) pour  268435450 éléments (répété 100 fois) =>   25876 ms ;           2684354500 
+Calcul parallèle  (128) pour  268435450 éléments (répété 100 fois) =>   25753 ms ;           2684354500 
+Calcul parallèle  (256) pour  268435450 éléments (répété 100 fois) =>   28068 ms ;           2684354500 
+Calcul parallèle  (512) pour  268435450 éléments (répété 100 fois) =>   34615 ms ;           2684354500 
+Calcul séquentiel (  1) pour  268435450 éléments (répété 100 fois) =>   67388 ms ;           2684354500 
+Calcul streamSeq  (  1) pour  268435450 éléments (répété 100 fois) =>   32291 ms ;           2684354500 
+Calcul streamPar  (  ?) pour  268435450 éléments (répété 100 fois) =>   25565 ms ;           2684354500 
+536870912
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 536870906 100
+
+Calcul parallèle  ( 16) pour  536870906 éléments (répété 100 fois) =>   52606 ms ;           5368709060 
+Calcul parallèle  ( 32) pour  536870906 éléments (répété 100 fois) =>   50326 ms ;           5368709060 
+Calcul parallèle  ( 64) pour  536870906 éléments (répété 100 fois) =>   47668 ms ;           5368709060 
+Calcul parallèle  (128) pour  536870906 éléments (répété 100 fois) =>   45791 ms ;           5368709060 
+Calcul parallèle  (256) pour  536870906 éléments (répété 100 fois) =>   47564 ms ;           5368709060 
+Calcul parallèle  (512) pour  536870906 éléments (répété 100 fois) =>   54807 ms ;           5368709060 
+Calcul séquentiel (  1) pour  536870906 éléments (répété 100 fois) =>  143884 ms ;           5368709060 
+Calcul streamSeq  (  1) pour  536870906 éléments (répété 100 fois) =>   65579 ms ;           5368709060 
+Calcul streamPar  (  ?) pour  536870906 éléments (répété 100 fois) =>   47782 ms ;           5368709060 
+1073741824
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 1073741818 100
+
+Calcul parallèle  ( 16) pour 1073741818 éléments (répété 100 fois) =>   72607 ms ;          10737418180 
+Calcul parallèle  ( 32) pour 1073741818 éléments (répété 100 fois) =>   65368 ms ;          10737418180 
+Calcul parallèle  ( 64) pour 1073741818 éléments (répété 100 fois) =>   68623 ms ;          10737418180 
+Calcul parallèle  (128) pour 1073741818 éléments (répété 100 fois) =>   77928 ms ;          10737418180 
+Calcul parallèle  (256) pour 1073741818 éléments (répété 100 fois) =>   85673 ms ;          10737418180 
+Calcul parallèle  (512) pour 1073741818 éléments (répété 100 fois) =>   92602 ms ;          10737418180 
+Calcul séquentiel (  1) pour 1073741818 éléments (répété 100 fois) =>  225123 ms ;          10737418180 
+Calcul streamSeq  (  1) pour 1073741818 éléments (répété 100 fois) =>  155794 ms ;          10737418180 
+Calcul streamPar  (  ?) pour 1073741818 éléments (répété 100 fois) =>   62831 ms ;          10737418180 
+2147483648
+/home/msyska/jdk1.8.0_51/bin/java -Xmx32G -Xms32G sum.SommeTab 2147483642 100
+
+Calcul parallèle  ( 16) pour 2147483642 éléments (répété 100 fois) =>  122801 ms ;          21474836420 
+Calcul parallèle  ( 32) pour 2147483642 éléments (répété 100 fois) =>   94769 ms ;          21474836420 
+Calcul parallèle  ( 64) pour 2147483642 éléments (répété 100 fois) =>   86104 ms ;          21474836420 
+Calcul parallèle  (128) pour 2147483642 éléments (répété 100 fois) =>  119259 ms ;          21474836420 
+Calcul parallèle  (256) pour 2147483642 éléments (répété 100 fois) =>  145048 ms ;          21474836420 
+Calcul parallèle  (512) pour 2147483642 éléments (répété 100 fois) =>  159055 ms ;          21474836420 
+Calcul séquentiel (  1) pour 2147483642 éléments (répété 100 fois) =>  597281 ms ;          21474836420 
+Calcul streamSeq  (  1) pour 2147483642 éléments (répété 100 fois) =>  369197 ms ;          21474836420 
+Calcul streamPar  (  ?) pour 2147483642 éléments (répété 100 fois) =>   99835 ms ;          21474836420 
